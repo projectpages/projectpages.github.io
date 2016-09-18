@@ -1,0 +1,47 @@
+[
+  {
+    "title": "EAB-AM-Project",
+    "url": "http://mined.gatech.edu/EAB-AM-Project/",
+    "imageurl": "http://mined.gatech.edu/EAB-AM-Project/img/316L_AM_IPF.png"
+  },
+  {
+    "title": "Grain Growth",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-grain-growth/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-grain-growth/img/grain-growth.png"
+  },
+  {
+    "title": "Microparticle Distribution in Slot-Die Extrusion Membranes",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-Microparticle-distribution/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-Microparticle-distribution/img/reconstructed_2.png"
+  },
+  {
+    "title": "Al7075-T6 Particle Distribution Impact on Multiaxial Lives",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-AL7075-PARTICLES/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-AL7075-PARTICLES/img/smelt.png"
+  },  
+  {
+    "title": "Phase Field Models of Ternary Eutectoid Alloys",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-Ternary-Eutectic-Alloy/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-Ternary-Eutectic-Alloy/img/home-bg.png"
+  },  
+  {
+    "title": "LENS-type Additive Manufacturing Process-Structure Linkages",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-LENS/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-LENS/img/lens-450-3d-printer-repairing-case.png"
+  },  
+  {
+    "title": "Structure-Property Linkages of Semi-Crystalline Materials",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-polymers/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-polymers/img/headers/page_header.PNG"
+  },
+  {
+    "title": "Characterizing Active Nematics on the Surface of a Torus",
+    "url": "http://materials-informatics-class-fall2015.github.io/MIC-Active-Nematics-Torus/",
+    "imageurl": "http://materials-informatics-class-fall2015.github.io/MIC-Active-Nematics-Torus/img/Active_header.jpg"
+  },
+  {
+    "title": "CADNAAM Project",
+    "url": "http://mined.gatech.edu/DMREF-Project/",
+    "imageurl": "http://mined.gatech.edu/DMREF-Project/img/bg.jpg"
+  } 
+]

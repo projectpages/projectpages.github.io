@@ -1,17 +1,125 @@
+---
+---
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='UTF-8'/>
-  <title>Projects-View</title>
-  <meta name='apple-mobile-web-app-status-bar-style' content='white' />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-  <link rel='shortcut icon' href='./img/favicon.png' type='image/x-icon' />
-  <link rel='stylesheet' href='./style.css'>
-</head>
-<body>
-  <div id='prose'></div>
-  <script src='locale.js'></script>
-  <script src='dist/prose.js'></script>
-</body>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <title>Project Pages</title>
+
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+        <!-- FontAwesome icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/74dfc6cf47.css">
+
+        <!-- Core BootStrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- Material Design CSS -->
+        <link rel="stylesheet" href="http://aboutashu.com/hcz-jekyll-blog/static/css/bootstrap-material-design.min.css">
+
+    </head>
+
+    <body>
+        
+        <div class="row" style="background: url(http://api.thumbr.it/whitenoise-361x370.png?background=871616ff&noise=000000&density=12&opacity=15); min-height: 425px; ">
+
+            <img src="Project-Pages-New-Logo-Square.png" style="height: 250px; display: block; margin: 0 auto; margin-top: 40px">
+            
+            <div class="container" style="text-align:center; position:relative; top:-20px; color:white">
+                
+                <h1 style="font-size:3em;"><b> Project Pages </b></h1>
+                
+                <p style="font-size:2em;"><b>Project-Pages</b> is a Jekyll based scientific blogging tool, made easily accessible to the non-coder researcher through simple heavily opinionated templates, while preserving the freedom of the code savvy user to customize all functionality as they please. Project-Pages uses a specialized re-skin of Prose.io to provide a CMS-like overlay. </p>
+                
+            </div>
+
+        </div>
+        
+        <div class="container">
+            
+            <div class="row" style=" margin-bottom:45px">
+
+                <div  class=" col-md-6 col-xs-12 full" style=" border-width: 0px;">
+                    
+                    <div class="well" style="height:400px; background: url(PPEditor.png); background-size: cover; margin: 0px; margin-top: 45px">
+
+                    <div style="height:70px; position:relative; top:282px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: center; margin: -20px -20px -20px -20px">
+   
+                        <p style="font-size:1.4em; position:relative; top:20px;"><a href="http://projectpages.github.io/project-pages/" target="_blank" style="color: white !important"><b>Create/Edit</b> your own Project-Pages instance. <i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; margin: 0px 15px 0px 0px; float:right"></i></a></p>    
+
+                    </div>     
+
+                    </div>  
+
+                </div>
+                
+                <div  class=" col-md-6 col-xs-12 full" style=" border-width: 0px;">
+                    
+                    <div class="well" style="height:400px; background: url(PP.png); background-size: cover; margin: 0px; margin-top: 45px">
+
+                    <div style="height:70px; position:relative; top:282px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: center; margin: -20px -20px -20px -20px">
+   
+                        <p style="font-size:1.4em; position:relative; top:20px;"><a href="http://projectpages.github.io/project-pages/" target="_blank" style="color: white !important"><b>Explore</b> the template in the live demo. <i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; margin: 0px 25px 0px 0px; float:right"></i></a></p>    
+
+                    </div>     
+
+                    </div>  
+
+                </div>
+
+            </div>
+       
+        </div>
+        
+        <div class="row" style="padding-bottom: 45px">
+            
+            <div style=" background: url(http://api.thumbr.it/whitenoise-361x370.png?background=871616ff&noise=000000&density=12&opacity=15);">
+            
+                <h1 style="padding-top:20px; padding-bottom:20px; font-size:3em;text-align:center; color:white;"><b> Existing Projects-Pages Gallery </b></h1>
+            
+            </div>
+            
+            <div class="container" style="text-align:center;">
+			
+			{% for example in site.data.gallery %}
+
+				<div  class=" col-md-4 col-xs-12 full" style=" border-width: 0px; margin-top:35px;">
+
+					<div class="well" style="height:300px; background: url({{ example.imageurl }}); background-size: cover; margin: 0px;">
+
+						<div style="height:50px; position:relative; top:182px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: center; margin: -20px -20px -20px -20px">
+
+							<a href="{{ example.url }}" target="_blank" style="color: white !important"><p style="font-size:1.4em; position:relative; top:10px; width: 75%; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; margin-left:15px">{{ example.title }}</p>
+							
+							<i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; margin: -30px 25px 0px 0px; float:right"></i></a>
+
+						</div>     
+
+					</div>  
+
+				</div>
+				
+			{% endfor %}	
+                
+            </div>
+
+        </div>
+        
+        
+        
+
+        <div style=" background: url(http://api.thumbr.it/whitenoise-361x370.png?background=871616ff&noise=000000&density=12&opacity=15); padding-bottom:20px;">
+            
+            <p style="padding-top:15px;font-size:1.6em; text-align:center; color:white"> Copyright © <a href="http://ahmetcecen.github.io/" target="_blank" style="color: white !important">Ahmet Cecen</a>,  <a href="http://mined.gatech.edu/" target="_blank" style="color: white !important">MINED@GaTech </a> and <a href="https://github.com/projectpages" target="_blank" style="color: white !important"> Project Pages </a> 2016. </p>
+            
+        </div>
+
+
+    </body>
 </html>

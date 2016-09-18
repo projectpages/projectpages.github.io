@@ -1,0 +1,9 @@
+# Site settings
+title: Project Pages
+description: "An Integrated Scientific Blogging Template"
+url: "http://projectpages.github.io"
+
+# Tertiary Parameters
+github_username:  projectpages
+g-analytics: UA-75881392-1
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
